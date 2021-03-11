@@ -9,6 +9,6 @@ An module for .Tux that extends/ fixes some features.
 Copy the files in the folder you downloaded from this into a .Tux programs ".Tux" folder.
 
 
-# credits
+# Credits
 
 Me - Developing this plugin and .Tux
