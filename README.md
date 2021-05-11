@@ -1,4 +1,4 @@
-<img src="https://images.coollogo.com/images/x.gif" alt="Transparent image"/>![image](https://user-images.githubusercontent.com/65312637/117814360-34455500-b232-11eb-9d81-5b34f4409ebc.png)
+#Tux Extender
 
 
 An module for .Tux that extends/ fixes some features.
