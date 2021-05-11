@@ -1,7 +1,7 @@
 # Tux Extender
 
 
-An module for .Tux that extends/ fixes some features. This does require .tux
+An module for .Tux that extends/ fixes some features. This does require .tux.
 
 
 # Is this required?
