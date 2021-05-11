@@ -1,0 +1,29 @@
+using .tux
+MAIN.TUX
+
+{
+
+script.allowcommand(tux_browse)(tux_run)
+
+script.disablecommand(tux_delete)(tux_accountcontrol)
+
+script.mathmatics.run("mathmatics\main.script")
+
+script.save.whenprogramclosed.showmessage("Do you want to save the current file?").
+submenu:allowed.submenuoptions: {*} text:("Save and exit") script: whenclicked.closewindow.open:("scripts\save\save.script")
+
+iffound:open".exe".ifnotfound:donothing
+
+script.open:("components\updater.tux")
+
+script.open:("components\.tux")
+
+script.open:("components\install.tux")
+
+script.open:("components\GUI\message.tux")
+
+script.open:("components\safety\antimalware.tux")
+
+ifscriptmissing:showmessage("Error: Missing critical files")
+
+}
